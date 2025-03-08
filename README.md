@@ -1,6 +1,10 @@
 # T2-w-MP-PCA
-    This repo has a MATLAB script to process 4D T2*-weighted MRI data, including denoising and generating R2* and T2* maps.
-    When using please cite: Veraart et al., NeuroImage (2016) https://doi.org/10.1016/j.neuroimage.2016.08.016 and Does et al.,MRM (2018) https://doi.org/10.1002/mrm.27658
+    This repo has a MATLAB script to process 4D T2*-weighted MRI data, 
+    including denoising and generating R2* and T2* maps.
+    
+    When using please cite: Veraart et al., 
+    NeuroImage (2016) https://doi.org/10.1016/j.neuroimage.2016.08.016 and 
+    Does et al.,MRM (2018) https://doi.org/10.1002/mrm.27658
 ---
 
 ## **Requirements**
@@ -70,14 +74,6 @@ How to Run:
     Figure 1: Original vs. denoised T2*-weighted images.
     Figure 2: Original vs. denoised R2* maps.
     Figure 3: Original vs. denoised T2* maps.
-
-## **File Structure**
-T2s-MRI-Processing/
-├── main.m                # Main script
-├── MPPCAdenoise.m        # Denoising function
-├── R2s_T2s_fit.m         # Map calculation function
-├── Data/                 # Folder for NIfTI files
-├── README.md             # This file
 
 ## **License**
     This project is licensed under the MIT License - see the LICENSE file for details.
